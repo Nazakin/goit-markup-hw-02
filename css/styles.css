@@ -28,10 +28,10 @@ h1{
     line-height: 60px;
 }
 .accent{
-    color: var(--color);
+    color: var(--navy-blue);
 }
 :root{
-    --navy-blue: #2e2f2e;
+    --navy-blue: #2e2f42;
     --slate: #434455;
 }
 .nav{
@@ -56,8 +56,10 @@ h1{
 .button:focus{
     background-color: #404bbf;
 }
-p{
+.paragraph{
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .link{
     text-decoration: none;
@@ -80,4 +82,19 @@ p{
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+}
+.heading-text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+.what{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue);
 }
