@@ -101,3 +101,17 @@ h1{
 .fourth-section{
     background-color: #f4f4fd;
 }
+.team{
+    background-color: #ffffff;
+}
+.footer{
+    background-color: var(--navy-blue);
+}
+.footer .accent{
+    color: #f4f4fd;
+}
+.footer-text{
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+}
