@@ -11,6 +11,7 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin:24px 156px 24px ;
 }
 .contact{
     font-style: normal;
@@ -40,6 +41,7 @@ h1{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+
 }
 .nav:hover,
 .nav:focus{
@@ -47,6 +49,7 @@ h1{
 }
 .contact-info{
     color: #434455;
+
 }
 .contact-info:hover,
 .contact-info:focus{
@@ -135,9 +138,36 @@ h1{
     background-color: #f4f4fd;
     cursor: pointer;
     font-family: 'Roboto',sans-serif;
+    margin-right: 24px;
+    padding: 12px 24px;
+    border: 1px solid #E7E9FC;
+        border-radius: 4px;
 }
 .filter-button:hover,
 .filter-button:focus{
     color: #ffffff;
     background-color: #404bbf;
+}
+.f-but{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.header{
+    display: flex;
+    border-bottom: 1px solid #E7E9FC;
+    flex-direction: row;
+    margin-top: 24px;
+}
+.link-to-smth{
+    display: flex;
+    flex-direction: row;
+    gap: 40px
+}
+.photos{
+    box-sizing: border-box;
+    border: 1px solid #E7E9FC;
 }
